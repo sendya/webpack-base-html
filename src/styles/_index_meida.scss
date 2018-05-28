@@ -1,0 +1,33 @@
+@import "vars";
+
+/**
+ * 分辨率 媒体查询
+ */
+
+@media screen and (max-width: 1400px){
+
+  .root {
+
+    main {
+      width: 980px;
+
+    }
+
+    footer {
+      width: 980px;
+    }
+
+  }
+}
+
+@media screen and (max-width: 1024px){
+
+  .root {
+
+    main, footer {
+
+      width: 98%;
+
+    }
+  }
+}

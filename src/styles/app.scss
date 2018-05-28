@@ -1,0 +1,29 @@
+@import "~normalize.css"; // 浏览器样式重置 可选: normalize.css | reset.scss
+@import "vars"; // 全局 CSS 变量定义
+@import "icons"; // 图标引入 使用阿里巴巴矢量图库 iconfont.cn
+
+/*
+ * 全局通用样式
+ */
+.root {
+
+  .outer-wrapper {
+    display: flex;
+    flex-grow: 1;
+    padding: 40px 32px 32px;
+    height: auto;
+  }
+
+}
+
+a {
+  color: inherit;
+  display: block;
+  outline: none;
+  text-decoration: none;
+}
+
+/**
+ * 每个页面的样式引入
+ */
+@import "index";

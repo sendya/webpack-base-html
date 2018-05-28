@@ -1,0 +1,64 @@
+@import "vars";
+
+// Index 样式
+
+.root {
+  /*background: #F9F9FA;*/
+
+  main {
+
+    width: 1280px;
+    margin: 0 auto;
+
+    &>h1 {
+      text-align: center;
+    }
+
+
+    .icon-list {
+
+      i {
+        font-size: $global-font-size-h1;
+
+        margin: $def-margin;
+
+        &.color-red {
+          color: red;
+        }
+
+        &:hover {
+          color: #0086b3;
+          cursor: pointer;
+        }
+      }
+
+    }
+
+    .image-list {
+
+      .bg1 {
+        background: url("../assets/images/150x400.png");
+        width: 150px;
+        height: 400px;
+      }
+    }
+  }
+
+  footer {
+
+    border-top: solid 1px #ccc;
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: 32px;
+    padding-top: $global-font-size;
+
+    .copy-right {
+      font-size: $global-font-size;
+      text-align: center;
+    }
+  }
+
+
+}
+
+@import "index_meida";
